@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.conteiner {
+    max-width: 1140px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.top-line-wrapper {
+    background: #EFEFEF;
+}
+.top-line {
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    a {
+        line-height: 16px;
+        text-decoration: none;
+        color: #333333;
+        margin-left: 27px;
+    }
+    a:hover {
+        color: #c12c11;
+    }
+}
+.logo-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+}
+.logo-call {
+    padding-top: 19px;
+    padding-bottom: 13px;
+}
+.logo-call_tel {
+    float: right;
+    padding-top: 20px;
+}
+.phone {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #000000;
+}
+.phone:hover {
+    color: #c12c11;
+}
+.phone-btn {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 10px 27px;
+    margin-left: 35px;
+}
+.phone-btn:hover {
+    background: #f5f1f1;
+    cursor: pointer;
+}
+.phone-btn:active {
+    background: #f2ecec;
+}
+.menu-wrapper {
+    background: #FFFFFF;
+}
+.menu {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin: 0 20px;
+    }
+    a:hover {
+        color: #c12c11;
+    }
+}
+.banner-wrapper {
+    background: #F13C6E;
+}
+.banner {
+    padding-top: 70px;
+    .banner-left {
+        width: 350px;
+        float: left;
+    }
+    .banner-title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #FFFFFF;
+        padding-top: 122px;
+        padding-bottom: 38px;
+    }
+    .banner-text {
+        color: #FFFFFF;
+        padding-bottom: 45px;
+    }
+    .banner-btn {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        color: #FFFFFF;
+        background: #F13C6E;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        display: inline-block;
+        padding: 10px 44px;
+    }
+    .banner-btn:hover {
+        border-color: #66dcdc;
+        color: #66dcdc;
+    }
+    .banner-img {
+        float: right;
+        margin-top: -50px;
+        margin-right: 200px;
+    }
+}
+.special-wrapper {
+    background: #EFEFEF;
+}
+.special {
+    padding-top: 80px;
+    padding-bottom: 71px;
+    .offers {
+        font-size: 0;
+        margin: 0 -15px;
+    }
+    .special-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 23px;
+    }
+    .offers-article-wrapper {
+        display: inline-block;
+        vertical-align: top;
+        width: 25%;
+        padding: 15px 15px;
+    }
+    .offers-article {
+        background: #FFFFFF;
+        text-align: center;
+        padding: 27px 5px;
+    }
+    .offers-article-img {
+    }
+    .offers-article-text {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 7px;
+        margin-bottom: 15px;
+        a {
+            text-decoration: none;
+            color: #333333;
+        }
+        a:hover {
+            color: #c12c11;
+        }
+    }
+    .offers-article-price {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-bottom: 23px;
+    }
+    .offers-article-btn {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        color: #FFFFFF;
+        background: #F13C6E;
+        border-radius: 30px;
+        padding: 8px 41px;
+    }
+    .offers-article-btn:hover {
+        background: #df3767;
+        cursor: pointer;
+    }
+    .offers-article-btn:active {
+        background: #F13C6E;
+    }
+}
+.footer-wrapper1 {
+    background: #FFFFFF;
+    border-bottom: 1px solid #EFEFEF;
+}
+.footer-lists {
+    padding-top: 82px;
+    padding-bottom: 50px;
+    .footer-lists-list {
+        font-size: 0;
+        margin: 0 -15px;
+    }
+    .footer-lists-list-wrapper {
+        display: inline-block;
+        vertical-align: top;
+        width: 25%;
+        padding: 0 15px;
+        .footer-title-text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140.62%;
+            color: #000000;
+            border-bottom: 1px solid #EFEFEF;
+            padding-bottom: 46px;
+        }
+    }
+    .list {
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 25px;
+    }
+    .footer-lists-list-item {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+    }
+    a {
+        text-decoration: none;
+        color: #828282;
+    }
+    a:hover {
+        color: #c12c11;
+    }
+}
+.footer-social-wrapper {
+    background: #FFFFFF;
+}
+.footer-social {
+    padding-top: 37px;
+    padding-bottom: 33px;
+}
+.footer-social-left {
+    float: left;
+    &-link {
+        margin-right: 16px;
+    }
+    &-link:hover {
+        .svg {
+            fill: black;
+        }
+    }
+}
+.footer-social-right {
+    float: right;
+    padding-top: 4px;
+}
+.footer-politic-wrapper {
+    background: #EFEFEF;
+    .footer-politic {
+        padding: 25px 15px;
+    }
+    .footer-politic-text {
+        float: left;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #828282;
+    }
+    .footer-politic-link {
+        float: right;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: right;
+        text-decoration: none;
+        color: #828282;
+    }
+    .footer-politic-link:hover {
+        color: #c12c11;
+    }
+}
